@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Read number from user
+echo -n "Enter a number: "
+read num
+
+# Check if the number is positive, negative, or zero
+if [ "$num" -gt 0 ]; then
+    echo "The number $num is Positive."
+elif [ "$num" -lt 0 ]; then
+    echo "The number $num is Negative."
+else
+    echo "The number is Zero."
+fi
